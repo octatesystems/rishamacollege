@@ -1234,51 +1234,51 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 245, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_header.scss */
+  
   .header-area .header-top_area {
     padding: 11px 50px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 245, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_header.scss */
+  
   .header-area .header-top_area {
     padding: 11px 50px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 260, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_header.scss */
+
   .header-area .header-top_area .header_top_wrap {
     display: block !important;
     text-align: center;
   }
 }
 
-/* line 265, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_header.scss */
+
 .header-area .header-top_area .header_top_wrap p {
   margin-bottom: 0;
   font-size: 14px;
   color: #ffffff;
 }
 
-/* line 269, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_header.scss */
+
 .header-area .header-top_area .header_top_wrap p span {
   color: #fff;
 }
 
-/* line 271, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_header.scss */
+
 .header-area .header-top_area .header_top_wrap p span i {
   margin-right: 3px;
 }
 
-/* line 278, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_header.scss */
+
 .header-area .header-top_area .header_top_wrap .text_wrap p a {
   color: #fff;
   font-size: 14px;
 }
 
-/* line 283, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_header.scss */
+
 .header-area .header-top_area .header_top_wrap .text_wrap a:last-child {
   margin-left: 30px;
   padding-left: 30px;
@@ -1286,7 +1286,7 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 283, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_header.scss */
+  
   .header-area .header-top_area .header_top_wrap .text_wrap a:last-child {
     margin-left: 10px;
     padding-left: 10px;
@@ -1294,7 +1294,7 @@ h3 {
   }
 }
 
-/* line 293, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_header.scss */
+
 .header-area .header-top_area .header_top_wrap .text_wrap a:last-child::before {
   position: absolute;
   left: 0;
@@ -1306,17 +1306,20 @@ h3 {
   content: '';
 }
 
-/* line 1, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
+
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/banner/banner.jpg);
 }
 
-/* line 4, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
+
 .slider_bg_2 {
-  background-image: url(../img/banner/banner2.png);
+  background-image: url(../img/banner/banner2.jpg);
 }
 
-/* line 8, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
+.slider_bg_3 {
+  background-image: url(../img/banner/banner3.jpg);
+}
+
 .slider_area .single_slider {
   height: 960px;
   background-size: cover;
@@ -1325,124 +1328,123 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 8, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
+
   .slider_area .single_slider {
     height: 420px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 8, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
+
   .slider_area .single_slider {
     height: 520px;
   }
 }
 
-/* line 20, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
-  color: #234262;
-  font-family: "Abril Fatface", cursive;
-  font-size: 75px;
+  color: gray;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 45px;
   font-weight: 400;
   line-height: 1.16;
   margin-bottom: 62px;
 }
 
 @media (max-width: 767px) {
-  /* line 27, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
+
   .slider_area .single_slider .slider_text h3 br {
     display: none;
   }
 }
 
-/* line 32, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
+
 .slider_area .single_slider .slider_text h3 span {
   font-weight: 700;
 }
 
 @media (max-width: 767px) {
-  /* line 20, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
+
   .slider_area .single_slider .slider_text h3 {
     font-size: 33px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 20, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
+  
   .slider_area .single_slider .slider_text h3 {
     font-size: 35px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 20, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
+ 
   .slider_area .single_slider .slider_text h3 {
     font-size: 55px;
   }
 }
 
-/* line 45, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
+
 .slider_area .single_slider .slider_text > a {
   margin-right: 15px;
 }
 
 @media (max-width: 767px) {
-  /* line 45, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
+  
   .slider_area .single_slider .slider_text > a {
     margin-bottom: 15px;
   }
 }
 
-/* line 1, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
 .welcome_docmed_area {
   padding-top: 120px;
   padding-bottom: 220px;
 }
 
 @media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+  
   .welcome_docmed_area {
     padding-bottom: 100px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 1, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+  
   .welcome_docmed_area {
     padding-bottom: 100px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 1, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+  
   .welcome_docmed_area {
     padding-bottom: 100px;
   }
 }
 
-/* line 13, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
 .welcome_docmed_area .welcome_thumb {
   position: relative;
 }
 
-/* line 15, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
 .welcome_docmed_area .welcome_thumb .thumb_1 {
   left: 0;
 }
 
-/* line 17, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
 .welcome_docmed_area .welcome_thumb .thumb_1 img {
   width: 60%;
 }
 
 @media (max-width: 767px) {
-  /* line 17, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+  
   .welcome_docmed_area .welcome_thumb .thumb_1 img {
     width: 100%;
   }
 }
 
-/* line 24, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
 .welcome_docmed_area .welcome_thumb .thumb_2 {
   position: absolute;
   bottom: -94px;
@@ -1450,7 +1452,7 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 24, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
   .welcome_docmed_area .welcome_thumb .thumb_2 {
     position: absolute;
     left: 0;
@@ -1460,7 +1462,7 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 24, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+  
   .welcome_docmed_area .welcome_thumb .thumb_2 {
     position: absolute;
     right: 0;
@@ -1468,25 +1470,25 @@ h3 {
   }
 }
 
-/* line 39, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
 .welcome_docmed_area .welcome_thumb .thumb_2 img {
   width: 89%;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 39, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+  
   .welcome_docmed_area .welcome_thumb .thumb_2 img {
     width: 100%;
   }
 }
 
-/* line 47, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
 .welcome_docmed_area .welcome_docmed_info {
   padding-left: 90px;
 }
 
 @media (max-width: 767px) {
-  /* line 47, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+  
   .welcome_docmed_area .welcome_docmed_info {
     padding-left: 0;
     margin-top: 40px;
@@ -1494,14 +1496,14 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 47, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+  
   .welcome_docmed_area .welcome_docmed_info {
     padding-left: 0;
     margin-top: 100px;
   }
 }
 
-/* line 57, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
 .welcome_docmed_area .welcome_docmed_info h2 {
   font-size: 18px;
   font-weight: 400;
@@ -1512,7 +1514,7 @@ h3 {
   padding-bottom: 9px;
 }
 
-/* line 65, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
 .welcome_docmed_area .welcome_docmed_info h2:before {
   content: "";
   position: absolute;
@@ -1523,7 +1525,7 @@ h3 {
   background: #5DB2FF;
 }
 
-/* line 76, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
 .welcome_docmed_area .welcome_docmed_info h3 {
   font-weight: 500;
   font-size: 36px;
@@ -1531,47 +1533,47 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 76, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+  
   .welcome_docmed_area .welcome_docmed_info h3 {
     font-size: 30px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 83, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+ 
   .welcome_docmed_area .welcome_docmed_info h3 br {
     display: none;
   }
 }
 
-/* line 89, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
 .welcome_docmed_area .welcome_docmed_info p {
   font-size: 16px;
   color: #727272;
   line-height: 28px;
 }
 
-/* line 94, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
 .welcome_docmed_area .welcome_docmed_info ul {
   margin-bottom: 40px;
   margin-top: 25px;
 }
 
-/* line 97, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
 .welcome_docmed_area .welcome_docmed_info ul li {
   color: #727272;
   font-size: 16px;
   line-height: 28px;
 }
 
-/* line 101, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
 .welcome_docmed_area .welcome_docmed_info ul li i {
   margin-right: 10px;
   color: #5DB2FF;
   font-weight: 16px;
 }
 
-/* line 111, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_about.scss */
+
 .business_expert_area {
   padding-bottom: 100px;
 }
@@ -2345,7 +2347,7 @@ h3 {
   color: #fff;
   text-transform: capitalize;
   margin-bottom: 25px;
-  font-family: "Poppins", sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -2436,23 +2438,23 @@ h3 {
 
 /* line 94, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a {
-  color: #7A838B;
+  color: #b7b9bb;
   font-weight: 300;
   font-family: "Poppins", sans-serif;
 }
 
-/* line 98, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_footer.scss */
+
 .footer .footer_top .footer_widget ul li a:hover {
-  color: #1fc2d9;
+  color: #d9981f;
 }
 
-/* line 104, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_footer.scss */
+
 .footer .footer_top .footer_widget .newsletter_form {
   position: relative;
   margin-bottom: 20px;
 }
 
-/* line 107, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_footer.scss */
+
 .footer .footer_top .footer_widget .newsletter_form input {
   width: 100%;
   height: 60px;
@@ -2466,14 +2468,14 @@ h3 {
   font-family: "Poppins", sans-serif;
 }
 
-/* line 118, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_footer.scss */
+
 .footer .footer_top .footer_widget .newsletter_form input::placeholder {
   font-size: 14px;
   color: #aeb4ba;
   font-weight: 300;
 }
 
-/* line 123, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_footer.scss */
+
 .footer .footer_top .footer_widget .newsletter_form input:focus {
   outline: none;
 }
@@ -2487,7 +2489,7 @@ h3 {
   border: none;
   font-size: 16px;
   color: #fff;
-  background: #ebb830;
+  background: #0c0c0c;
   padding: 10px;
   padding: 0 30px;
   cursor: pointer;
@@ -2518,6 +2520,7 @@ h3 {
 
 .footer .copy-right_text {
   padding-bottom: 60px;
+  background-color:#131313;
 }
 
 
@@ -2525,7 +2528,13 @@ h3 {
   font-size: 15px;
   color: whitesmoke;
   margin-bottom: 0;
-  font-weight: 500;
+  
+}
+
+.copyright-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -2547,7 +2556,6 @@ h3 {
 
 
 .footer .footer_border {
-  border-top: 1px solid #9295a1;
   padding-bottom: 60px;
 }
 
@@ -2596,7 +2604,7 @@ h3 {
 
 .footer .socail_links ul li:hover a {
   color: #fff !important;
-  background: #1fc2d9 !important;
+  background: #044a53 !important;
 }
 
 
@@ -6767,16 +6775,30 @@ h6 {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 150, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_blog_part.scss */
+
   .blog_part .single-home-blog .card ul li {
     margin-right: 10px;
   }
 }
 
-/* line 166, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_blog_part.scss */
+
 .blog_part .single-home-blog .card ul li span {
   margin-right: 10px;
   font-size: 12px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.privacy-policy {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.terms-of-use{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  display: inline;
+  float: right;
+}
