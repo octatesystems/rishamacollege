@@ -472,19 +472,19 @@ h3 {
   cursor: pointer;
 }
 
-/* line 66, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_btn.scss */
+
 .boxed-btn4:hover {
   background: #132130;
   color: #fff !important;
   border: 1px solid #ffa500;
 }
 
-/* line 71, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_btn.scss */
+
 .boxed-btn4:focus {
   outline: none;
 }
 
-/* line 75, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_btn.scss */
+
 .boxed-btn5 {
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.8);
@@ -507,19 +507,18 @@ h3 {
   cursor: pointer;
 }
 
-/* line 89, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_btn.scss */
+
 .boxed-btn5:hover {
-  background: #1fc2d9;
+  background: #027888;
   color: #fff !important;
-  border: 1px solid #1fc2d9;
+  border: 1px solid #d9ae1f;
 }
 
-/* line 94, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_btn.scss */
 .boxed-btn5:focus {
   outline: none;
 }
 
-/* line 98, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_btn.scss */
+
 .boxed-btn3-white {
   color: #fff;
   display: inline-block;
@@ -2722,15 +2721,18 @@ h3 {
   font-size: 16px;
   color: #232637;
   font-weight: 400;
+  text-align: center;
+  font-weight: bold;
 }
 
 
 .popular_program_area .single__program .program__content h4 {
   font-size: 25px;
   color: #232637;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Abril Fatface";
   font-weight: 400;
   margin-top: 23px;
+  text-align: center;
 }
 
 
@@ -2780,7 +2782,7 @@ h3 {
 
 
 .popular_program_area .nav a.active {
-  background: #60d3e4;
+  background: #0d1f22;
   color: #fff;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
